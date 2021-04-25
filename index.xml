@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kevin Lee</title>
-    <link>https://kevinlee325.github.io/</link>
+    <link>https://www.vamoskevin.com/</link>
     <description>Recent content on Kevin Lee</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://kevinlee325.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.vamoskevin.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Method of Constructing Analytic Signals by Fourier Transform</title>
-      <link>https://kevinlee325.github.io/posts/2021/04/a-method-of-constructing-analytic-signals-by-fourier-transform/</link>
+      <link>https://www.vamoskevin.com/posts/2021/04/a-method-of-constructing-analytic-signals-by-fourier-transform/</link>
       <pubDate>Sun, 25 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://kevinlee325.github.io/posts/2021/04/a-method-of-constructing-analytic-signals-by-fourier-transform/</guid>
+      <guid>https://www.vamoskevin.com/posts/2021/04/a-method-of-constructing-analytic-signals-by-fourier-transform/</guid>
       <description>Abstract  In SD-OCT system, Hilbert Transform takes part in generating I-K (Intensity-wavenumber) relationship from I-λ(Intensity-wavelength), by constructing an analytic signal and calculating the phase of received signal. With the help of some FFT libraries, implementing Fourier Transform multiple times can replace Hilbert Transform and get the analytic signal, which is faster than implementing Hilbert Transform itself. This essay will focus on Hilbert Transform, replacing Hilbert Transform by Fourier Transform and how to implement it in C++.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://kevinlee325.github.io/about/</link>
+      <link>https://www.vamoskevin.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kevinlee325.github.io/about/</guid>
+      <guid>https://www.vamoskevin.com/about/</guid>
       <description>My favorite tennis player is Rafael Nadal.We use &#34;Vamos rafa&#34; to cheer for him in a game.About This personal site is used to record and share knowledge and experience in OCT(Optical Coherence Tomography), Medical Image Processing and Puncture Robot for Biopsy.
 My posts will only include some difficult and interesting things about these topics.</description>
     </item>
