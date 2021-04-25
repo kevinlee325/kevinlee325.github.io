@@ -44,7 +44,7 @@
 <meta itemprop="name" content="A Method of Constructing Analytic Signals by Fourier Transform">
 <meta itemprop="description" content="Abstract  In SD-OCT system, Hilbert Transform takes part in generating I-K (Intensity-wavenumber) relationship from I-λ(Intensity-wavelength), by constructing an analytic signal and calculating the phase of received signal. With the help of some FFT libraries, implementing Fourier Transform multiple times can replace Hilbert Transform and get the analytic signal, which is faster than implementing Hilbert Transform itself. This essay will focus on Hilbert Transform, replacing Hilbert Transform by Fourier Transform and how to implement it in C&#43;&#43;."><meta itemprop="datePublished" content="2021-04-25T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2021-04-25T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="1048"><meta itemprop="image" content="https://kevinlee325.github.io"/>
+<meta itemprop="wordCount" content="1044"><meta itemprop="image" content="https://kevinlee325.github.io"/>
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://kevinlee325.github.io"/>
@@ -222,8 +222,7 @@ $$</p>
 <h2 id="fourier-transform-of-the-analytic-signal">Fourier Transform of the analytic signal</h2>
 <p>  Perform Fourier Transform on the analytic signal and we can get:</p>
 <p>$$
-\tilde{x(t)}=x(t)+j \hat{x}(t) \\\<br>
-\tilde{X(f)}=X(f)+j \hat{X}(f) \\\<br>
+\tilde{X}(f)=X(f)+j \hat{X}(f) 
 \hat{X}(f)=\left\{\begin{array}{ll}
 2 X(f) &amp; f&gt;0 \\\<br>
 0 &amp; f=0 \\\<br>
@@ -360,7 +359,7 @@ $$</p>
           <line x1="16" y1="17" x2="8" y2="17"></line>
           <polyline points="10 9 9 9 8 9"></polyline>
         </svg>
-        1048 Words
+        1044 Words
       </p>
 
       <p>

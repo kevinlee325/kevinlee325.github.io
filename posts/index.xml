@@ -71,8 +71,7 @@ $$</p>
 <h2 id="fourier-transform-of-the-analytic-signal">Fourier Transform of the analytic signal</h2>
 <p>  Perform Fourier Transform on the analytic signal and we can get:</p>
 <p>$$
-\tilde{x(t)}=x(t)+j \hat{x}(t) \\\<br>
-\tilde{X(f)}=X(f)+j \hat{X}(f) \\\<br>
+\tilde{X}(f)=X(f)+j \hat{X}(f) 
 \hat{X}(f)=\left\{\begin{array}{ll}
 2 X(f) &amp; f&gt;0 \\\<br>
 0 &amp; f=0 \\\<br>
